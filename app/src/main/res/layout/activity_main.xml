@@ -107,12 +107,25 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="135dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="28dp"
         android:fontFamily="serif"
-        android:text="Not a user? Register"
+        android:text="Not a user?"
         android:textSize="14sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="serif"
+        android:text="Register"
+        android:textColor="#673AB7"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
