@@ -85,13 +85,13 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="231dp"
         android:layout_height="41dp"
         android:layout_marginEnd="88dp"
         android:layout_marginBottom="60dp"
-        android:background="#BA4002"
+        android:background="#972048"
         android:backgroundTint="#BA4002"
         android:fontFamily="serif"
         android:shape="rectangle"
@@ -112,6 +112,7 @@
         android:fontFamily="serif"
         android:text="Not a user? Register"
         android:textSize="14sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
